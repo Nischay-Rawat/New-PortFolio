@@ -8,6 +8,7 @@ import gsheettodb from "../../Assets/Projects/gsheet-to-db.png";
 import mgf from "../../Assets/Projects/mgf.png";
 
 import GasOLine from "../../Assets/Projects/Gas-O-Line.png";
+import indiefolio from "../../Assets/Projects/indiefolio.png";
 
 function Projects() {
   return (
@@ -33,6 +34,17 @@ function Projects() {
               demoLink="https://metagamefantasy.co/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={indiefolio}
+              isBlog={false}
+              title="Indiefolio"
+              description="Indiefolio is the freelancing live webApp which provides world's best artist to work with. Have more than 10k registered users.
+              Working on backend Node.js, Express, Razerpay payment gateway.
+                created varios api which helps to recommend the artist w.r.t to past project types & client's budget  "
+              demoLink="https://indiefolio.com"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -49,33 +61,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={gsheettodb}
-              isBlog={false}
-              title="gsheet-to-db"
-              description="Use Google Sheets as a database perform all CRUD
-              operation.
-              Get All Data, Get Data By Id ,insert Data , Update By Id
-              And Delete Data By Id"
-              ghLink="https://github.com/saurabhgkp/gsheet-to-db"
-              demoLink="https://www.npmjs.com/package/gsheet-to-db"
-            />
-          </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={gsheettodb}
-              isBlog={false}
-              title="gsheet-to-db"
-              description="Use Google Sheets as a database perform all CRUD
-              operation.
-              Get All Data, Get Data By Id ,insert Data , Update By Id
-              And Delete Data By Id"
-              ghLink=""
-              demoLink="https://saurabh-singh-port.netlify.app/"
-            />
-          </Col>
 
 
 

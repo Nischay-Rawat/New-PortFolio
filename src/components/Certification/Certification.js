@@ -2,8 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
-
+import hacker_rank_sql from '../../Assets/hacker_rank_sql.png'
+import hacker_rank_problem_solving from '../../Assets/hacker_rank_problem_solving.png'
+import hacker_rank_java from '../../Assets/hacker_rank_java.png'
+import jpmorgan_chase from '../../Assets/jpmorgan_chase.png'
 
 
 function Certification() {
@@ -18,45 +20,45 @@ function Certification() {
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~Z6UQASV2W49W/CERTIFICATE_LANDING_PAGE~Z6UQASV2W49W.jpeg"}
+                            imgPath={hacker_rank_sql}
                             isBlog={false}
-                            title=" 🔰 Front-End Web Development with React "
-                            description="The Hong Kong University of Science and Technology, Coursera."
+                            title=" 🔰 SQL (Basic) "
+                            description="Learn All Basic Concept of SQL Such as Joins, Grouping, Aggregation."
 
-                            demoLink="https://coursera.org/share/9ce5f5e3147a63fa6f4c9ea7b32f4364"
+                            demoLink="https://www.hackerrank.com/certificates/iframe/48406461a534"
                         />
                     </Col>
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TP6QVWJ2GPGK/CERTIFICATE_LANDING_PAGE~TP6QVWJ2GPGK.jpeg"}
+                            imgPath={hacker_rank_problem_solving}
                             isBlog={false}
-                            title=" 🔰 Server-side Development with NodeJS, Express and MongoDB"
-                            description=" The Hong Kong University of Science and Technology, Coursera."
+                            title=" 🔰 Problem Solving "
+                            description=" Learn and solve DSA concept such as Stack, Queue, Tree, LinkedList etc ."
 
-                            demoLink="https://coursera.org/share/64c52fe72a102a443028ddaa26266a45"
+                            demoLink="https://www.hackerrank.com/certificates/6a2b00a16551"
                         />
                     </Col>
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~M6957VQA6UYY/CERTIFICATE_LANDING_PAGE~M6957VQA6UYY.jpeg"}
+                            imgPath={hacker_rank_java}
                             isBlog={false}
-                            title="🔰 Front-End Web UI Frameworks and Tools: Bootstrap 4"
-                            description=" The Hong Kong University of Science and Technology, Coursera."
+                            title="🔰 Java (Basic)"
+                            description=" Learn OOPS concept such as Abstraction, Encapulation, Inheritence, Polymorphism  ."
 
-                            demoLink="https://coursera.org/share/567dc696bea1154a17c9e927b9d8822c"
+                            demoLink="https://www.hackerrank.com/certificates/62a554f289de"
                         />
                     </Col>
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~Z6UQASV2W49W/CERTIFICATE_LANDING_PAGE~Z6UQASV2W49W.jpeg"}
+                            imgPath={jpmorgan_chase}
                             isBlog={false}
-                            title="🔰 Full-Stack Web Development with React"
-                            description=" The Hong Kong University of Science and Technology, Coursera."
+                            title="🔰 Software Engineering Virtual Experience"
+                            description=" Interface with a stock price data feed, Use JPMorgan Chase frameworks and tools, Display data visually for traders."
 
-                            demoLink="https://coursera.org/share/9ce5f5e3147a63fa6f4c9ea7b32f4364"
+                            demoLink="https://insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_bnpf3yL7seYMK3kyB_1631285792899_completion_certificate.pdf"
                         />
                     </Col>
 

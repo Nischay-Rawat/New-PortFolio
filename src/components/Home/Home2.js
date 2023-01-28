@@ -19,33 +19,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am Saurabh Kumar Singh who is at present looking for job in web development and software development industry. Strong professional with a Master’s Degree (M.C.A focused in software development from Institute of Engineering and Technology, Lucknow, Uttar-Pradesh).
+              I am Nischay Rawat who is at present looking for job in web development and software development industry. With expertise in MongoDB, SQL and experience in both server-based and serverless API development, I am well-versed in the latest technologies and best practices for creating robust and efficient systems that can handle high levels of traffic and data processing.
               <br />
 
               <i>
-                <b className="purple">  Javascript, Node.js and React.js </b>
+                <b className="purple">  AWS, Node.js, Docker (Containerization) and React.js </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                also in areas related to highly scalable backend
 
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I also Practice DSA Questions
+              in <b className="purple">PepCoding & Leedcode</b> and Explore best practice of
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Desiging Software
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">     </b>
               </i>
             </p>
           </Col>
@@ -64,7 +64,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/saurabhgkp"
+                  href="https://github.com/Nischay-Rawat"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -72,7 +72,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href=""
                   target="_blank"
@@ -81,10 +81,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/saurabh-singh-841590192/"
+                  href="https://www.linkedin.com/in/nischayrawat/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -92,7 +92,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href=""
                   target="_blank"
@@ -101,7 +101,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>

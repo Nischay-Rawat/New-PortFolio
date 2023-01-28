@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/mern_stack_developer.pdf";
+import pdf from "../../Assets/../Assets/resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/saurabhgkp/saurabhgkp/b867c8f685cad500278f915d86dcb4bb556a0691/mern%20stack%20developer.pdf";
+  "https://raw.githubusercontent.com/Nischay-Rawat/Nischay-Rawat/a6b560c60ca25fe0d32ea405ea550f2dd97fd1b2/Copy%20of%20nischayrawat%20(1).pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
