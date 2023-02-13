@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
-
-import gsheettodb from "../../Assets/Projects/gsheet-to-db.png";
 import mgf from "../../Assets/Projects/mgf.png";
-
 import GasOLine from "../../Assets/Projects/Gas-O-Line.png";
 import indiefolio from "../../Assets/Projects/indiefolio.png";
 
