@@ -9,8 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Nischay-Rawat/Nischay-Rawat/0855d4527f193d11097ac471f33133691f9e9abf/NischayResume.pdf";
-
+  "https://raw.githubusercontent.com/Nischay-Rawat/Nischay-Rawat/a148a2cd688662146e9ff07192fcecfc1274ad8b/NischayRawatResume.pdf"
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
