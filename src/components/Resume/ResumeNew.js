@@ -6,7 +6,7 @@ import pdf from "../../Assets/../Assets/resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.mjs`;
 
 const resumeLink =
   "https://raw.githubusercontent.com/Nischay-Rawat/Nischay-Rawat/a148a2cd688662146e9ff07192fcecfc1274ad8b/NischayRawatResume.pdf"

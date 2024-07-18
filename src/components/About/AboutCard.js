@@ -13,7 +13,7 @@ function AboutCard() {
             <br /> “Chaudhary Charan Singh University”, Meerut Uttar-Pradesh.
             <br />
             <br />
-            <br /> <span className="purple">12th, May 2020  </span>
+            <br /> <span className="purple">12th, May 2018  </span>
             <br />    N.P Co-ed Sr sec School, New Delhi Delhi.
           </p>
         </blockquote>

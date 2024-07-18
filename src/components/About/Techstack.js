@@ -12,6 +12,9 @@ import {
 
   SiFirebase,
   SiHtml5,
+  SiPostgresql,
+  SiRedis,
+  SiSocketdotio,
   SiTypescript
 } from "react-icons/si";
 
@@ -42,6 +45,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSocketdotio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
       </Col>
     </Row>
   );

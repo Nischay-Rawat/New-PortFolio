@@ -6,6 +6,7 @@ import {
   SiPostman,
   SiAmazonaws,
   SiDocker,
+  SiKubernetes,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -26,6 +27,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+   
     </Row>
   );
 }

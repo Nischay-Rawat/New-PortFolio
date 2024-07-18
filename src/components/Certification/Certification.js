@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import hacker_rank_sql from '../../Assets/hacker_rank_sql.png'
 import hacker_rank_problem_solving from '../../Assets/hacker_rank_problem_solving.png'
 import hacker_rank_java from '../../Assets/hacker_rank_java.png'
+import hacker_rank_node from '../../Assets/hacker_rank_node.png'
 import jpmorgan_chase from '../../Assets/jpmorgan_chase.png'
 
 
@@ -48,6 +49,15 @@ function Certification() {
                             description=" Learn OOPS concept such as Abstraction, Encapulation, Inheritence, Polymorphism  ."
 
                             demoLink="https://www.hackerrank.com/certificates/62a554f289de"
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={hacker_rank_node}
+                            isBlog={false}
+                            title="🔰 Node (Basic)"
+                            description=" Learn Creating API, Implementing Middleware, Handeling errors, Websocket and Best Practices."
+                            demoLink="https://www.hackerrank.com/certificates/b958d82ffa52"
                         />
                     </Col>
 

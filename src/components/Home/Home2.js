@@ -30,8 +30,13 @@ function Home2() {
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to highly scalable backend
-
+                also in areas related to highly scalable
+                <i>
+                  <b className="purple">
+                    {" "}
+                    Backend Services
+                  </b>
+                </i>
               </i>
               <br />
               <br />
@@ -40,12 +45,8 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Desiging Software
+                  Scalable Backend Design
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple">     </b>
               </i>
             </p>
           </Col>
